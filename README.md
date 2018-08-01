@@ -28,3 +28,8 @@
 ##### e.g. kafka-console-consumer --topic test --from-beginning --bootstrap-server localhost:9092 --property print.key=true #####
 
 
+## How to produce a message to a topic ##
+
+#### $> kafka-console-producer --broker-list localhost:9092 --topic word-count-topic ####
+
+
